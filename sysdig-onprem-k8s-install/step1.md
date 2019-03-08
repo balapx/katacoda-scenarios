@@ -6,5 +6,3 @@ To unpack it, run the following commands (replacing version number as appropriat
 wget https://github.com/draios/sysdigcloud-kubernetes
 tar zxf <v1234>.tar.gz
 cd sysdigcloud-kubernetes-<1234>
-
-

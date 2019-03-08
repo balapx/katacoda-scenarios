@@ -12,6 +12,6 @@ It is recommended to edit the file to set the JVM options for Cassandra, Elastic
 To use the AWS implicit key, edit the JVM options as described in AWS: Integrate AWS Account and CloudWatch Metrics (Optional). 
 Create the namespace and deploy config.yaml by running the following commands: 
 
-kubectl create namespace sysdigcloud
-kubectl -n sysdigcloud create -f sysdigcloud/config.yaml
+`kubectl create namespace sysdigcloud` {{execute}}
 
+`kubectl -n sysdigcloud create -f sysdigcloud/config.yaml` {{execute}}
