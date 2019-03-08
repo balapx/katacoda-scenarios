@@ -4,7 +4,7 @@ If you are using EKS or GKE, default storage classes are provided; check for the
 
 Verify whether a storage class has been created, by running the command: 
 
-`kubectl get storageclass` {{execute}}
+`kubectl get storageclass`{{execute HOST1}}
 
 If no storage class has been defined, create a manifest for one, and then deploy it. 
 For example, a manifest could be named sysdigcloud-storageclass.yaml and contain the following contents (for a storage class using GP2 volumes in AWS):
@@ -23,10 +23,10 @@ parameters:
   type: gp2
 Now run the command: 
 
-`kubectl create -f sysdigcloud-storageclass.yaml` {{execute}}
+`kubectl create -f sysdigcloud-storageclass.yaml`{{execute HOST1}}
 
 Using either the existing storage class name from step 1, or the storage class name defined in step 2, edit the storageClassName in the following .yaml files: 
 
-`datastores/as_kubernetes_pods/manifests/cassandra/cassandra-statefulset.yaml` {{execute}}
+`datastores/as_kubernetes_pods/manifests/cassandra/cassandra-statefulset.yaml`{{execute HOST1}}
 
-`datastores/as_kubernetes_pods/manifests/elasticsearch/elasticsearch-statefulset.yaml` {{execute}}
+`datastores/as_kubernetes_pods/manifests/elasticsearch/elasticsearch-statefulset.yaml`{{execute HOST1}}

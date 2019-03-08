@@ -4,4 +4,4 @@ Edit the file sysdigcloud/pull-secret.yaml and change the place holder <PULL_SEC
 
 Deploy the pull secret object by running the command: 
 
-`kubectl -n sysdigcloud create -f sysdigcloud/pull-secret.yaml` {{execute}}
+`kubectl -n sysdigcloud create -f sysdigcloud/pull-secret.yaml`{{execute HOST1}}

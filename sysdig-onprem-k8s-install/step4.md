@@ -7,10 +7,10 @@ Create a self-sign certificate and key
 To create a self-signed cert: 
 Run this command: 
 
-`openssl req -new -newkey rsa:2048 -days 3650 -nodes -x509 -subj "/C=US/ST=CA/L=SanFrancisco/O=ICT/CN=onprem.sysdigcloud.com" -keyout server.key -out server.crt` {{execute}}
+`openssl req -new -newkey rsa:2048 -days 3650 -nodes -x509 -subj "/C=US/ST=CA/L=SanFrancisco/O=ICT/CN=onprem.sysdigcloud.com" -keyout server.key -out server.crt`{{execute HOST1}}
 
 Create a Kubernetes secret for the cert: 
 Run this command: 
 
-`kubectl -n sysdigcloud create secret tls sysdigcloud-ssl-secret --cert=server.crt --key=server.key` {{execute}}
+`kubectl -n sysdigcloud create secret tls sysdigcloud-ssl-secret --cert=server.crt --key=server.key`{{execute HOST1}}
 

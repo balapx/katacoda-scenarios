@@ -7,6 +7,6 @@ When creating a service, you have the option of creating a cloud network load ba
 You can create a cloud-based LoadBalancer service for the Sysdig API and collector using kubectl and the templates in the sysdigcloud folder.
 Run the command: 
 
-`kubectl -n sysdigcloud create -f sysdigcloud/api-loadbalancer-service.yaml` {{execute}}
+`kubectl -n sysdigcloud create -f sysdigcloud/api-loadbalancer-service.yaml`{{execute HOST1}}
 
-`kubectl -n sysdigcloud create -f sysdigcloud/collector-loadbalancer-service.yaml` {{execute}}
+`kubectl -n sysdigcloud create -f sysdigcloud/collector-loadbalancer-service.yaml`{{execute HOST1}}
