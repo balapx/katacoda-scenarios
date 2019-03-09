@@ -7,6 +7,6 @@
 
 `wget https://github.com/draios/sysdigcloud-kubernetes/archive/v1630.tar.gz`{{execute HOST1}}
 
-`tar zxf v1630.zip`{{execute HOST1}}
+`tar zxf v1630.tar.gz`{{execute HOST1}}
 
-`cd sysdigcloud-kubernetes-v1630`{{execute HOST1}}
+`cd sysdigcloud-kubernetes-1630`{{execute HOST1}}
