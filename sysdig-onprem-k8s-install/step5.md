@@ -1,4 +1,4 @@
-Install Components 
+## Install Components 
 Confirm Storage Classes and Edit storageClassName Parameters
 If you are using EKS or GKE, default storage classes are provided; check for them in step 1. In other environments, you may need to create a storage class (step 2).  Finally, enter the storageClassName in the appropriate .yaml files, as detailed in step 3. . 
 

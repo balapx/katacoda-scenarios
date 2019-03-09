@@ -1,3 +1,5 @@
+## Enter the License Key and Deploy config.yaml 
+
 The ConfigMap (config.yaml) is populated with information about usernames, passwords, SSL/TLS certs, and various application-specific settings. 
 See Sysdig Install with Kubernetes 1.9+#Making Configuration Changes for the kubectl format to use. 
 

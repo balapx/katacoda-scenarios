@@ -1,4 +1,4 @@
-Configure Access for Connectivity to the Cluster 
+## Configure Access for Connectivity to the Cluster 
 To permit incoming connections to the Sysdig API and collector deployments, you can either create a Kubernetes NodePort (for test environments only) or a LoadBalacer service (recommended). 
 
 LoadBalancer 

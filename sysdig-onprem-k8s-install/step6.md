@@ -1,4 +1,4 @@
-Install Datastores and Backend Components 
+## Install Datastores and Backend Components 
 Create the datastore statefulsets (Elasticsearch and Cassandra). Elasticsearch and Cassandra are automatically set up with --replica=3 generating full clusters.
 
 `kubectl -n sysdigcloud create -f datastores/as_kubernetes_pods/manifests/cassandra/cassandra-service.yaml`{{execute HOST1}}

@@ -1,4 +1,4 @@
-Confirm Installation
+## Confirm Installation
 
 Once the installation has been completed, your output should look similar (please note that the below output is an example):
 
