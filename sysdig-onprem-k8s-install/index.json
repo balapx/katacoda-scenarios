@@ -1,6 +1,8 @@
 {
   "title": "Sysdig Onprem K8s Install",
-  "description": "Test",
+  "description": "Learn how to deploy Sysdig Onprem on Kubernetes environment",
+  "difficulty": "Difficult",
+  "time": "15-20 minutes",
   "details": {
     "steps": [
       {
