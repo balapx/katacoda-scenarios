@@ -1,13 +1,3 @@
-## Create secret key
-
-Get agent access key and add it to ENV variable access_key.
-
-"export agent_key=<your sysdig access key>"
-
-Create secret key using the command
-
-`kubectl create secret generic sysdig-agent --from-literal=access-key=$access_key`{{execute HOST1}}
-
 ## Enable Kube State Metrics and Other Configmap Edits
 
 Edit sysdig-agent-configmap.yaml to 
@@ -20,6 +10,7 @@ Edit sysdig-agent-configmap.yaml to
 Apply the configmap changes
 
 `kubectl apply -f sysdig-agent-configmap.yaml`{{execute HOST1}}
+
 
 ## Edit the Daemonset and Deploy the Agents
 
