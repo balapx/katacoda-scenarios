@@ -4,4 +4,4 @@
 
 `kubectl create serviceaccount sysdig-agent`{{execute HOST1}}
 
-`kubectl create clusterrolebinding sysdig-agent --clusterrole=sysdig-agent --serviceaccount=sysdig-agent`{{execute HOST1}}
+`kubectl create clusterrolebinding sysdig-agent --clusterrole=sysdig-agent --serviceaccount=default:sysdig-agent`{{execute HOST1}}

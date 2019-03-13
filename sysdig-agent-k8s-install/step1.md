@@ -1,9 +1,11 @@
 ## Create a K8s cluster and download all necessary files
 
-Start Kubernetes Cluster
-The cluster can be started with the command `minikube start`{{execute}}.
+Start Kubernetes cluster with the below command
 
-To deploy agents using Kubernetes DaemonSets, you will download the following configuration files, edit them as required, and deploy them.
+`minikube start`{{execute}}.
+
+
+To deploy agents using Kubernetes DaemonSets, download the following configuration files.
 
 `git clone https://github.com/draios/sysdig-cloud-scripts.git`{{execute HOST1}}
 
