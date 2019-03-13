@@ -2,7 +2,7 @@
   "title": "Sysdig Agent K8s Install",
   "description": "Learn how to deploy Sysdig Agent on K8s environment",
   "difficulty": "Easy",
-  "time": "=5 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
