@@ -5,7 +5,6 @@
     "steps": [
       {
         "title": "Step 1",
-	"code": "foreground.sh",
         "text": "step1.md"
       },
       {
@@ -49,6 +48,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "minikube"
   }
 }
