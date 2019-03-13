@@ -48,6 +48,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "minikube"
+    "imageid": "kubernetes"
   }
 }
