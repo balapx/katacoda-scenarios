@@ -2,6 +2,7 @@
 
 Start Kubernetes Cluster
 The cluster can be started with the command `minikube start`{{execute}}.
+`launch.sh`{{execute}}
 
 1. Download the release from  https://github.com/draios/sysdigcloud-kubernetes/releases/latest. 
 2. Unpack the tar ball 
